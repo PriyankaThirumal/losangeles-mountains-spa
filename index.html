@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LOSANGELES MOUNTAINS | HOME</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <nav class="navigation">
+      <div class="nav-wrapper">
+        <div class="logo">
+          <img src="./assets/logo-icon.png" alt="logo" />
+          <img class="logo--state" src="./assets/logo-text.png" alt="logo" />
+        </div>
+        <div class="nav-items">
+          <div class="nav-item"><a href="#history">01.History</a></div>
+          <div class="nav-item"><a href="#team">02.Team</a></div>
+        </div>
+      </div>
+    </nav>
+    <header>
+      <div class="header-banner">
+        <img src="./assets/banner.jpg" alt="banner" />
+      </div>
+    </header>
+    <section id="history" class="history-section">
+      <div class="container">
+        <div class="section-title">
+          <div class="section-title--number">
+            <h1>01<span>History</span></h1>
+            <p class="history-section-desc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in
+              ante viverra, rutrum erat rutrum, consectetur mi. Proin at maximus
+              est. Nullam purus ex, iaculis sed erat sed, blandit tincidunt
+              quam. Cras scelerisque id quam sed dignissim Pellentesque urna
+              nunc, gravida quis hendrerit ac, tristique ut quam. Vivamus
+              suscipit dignissim tortor nec congue.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="history-carousel-wrapper">
+        <div class="history-carousel-image container">
+          <div><img src="./assets/thumbnail-1.jpg" alt="carousel" /></div>
+          <div><img src="./assets/thumbnail-2.jpg" alt="carousel" /></div>
+          <div><img src="./assets/thumbnail-1.jpg" alt="carousel" /></div>
+          <div><img src="./assets/thumbnail-2.jpg" alt="carousel" /></div>
+          <div><img src="./assets/thumbnail-1.jpg" alt="carousel" /></div>
+        </div>
+      </div>
+    </section>
+    <section id="team" class="container">
+      <div class="section-title">
+        <div class="section-title--number climb-section">
+          <div class="section-title-header">
+            <h1>02<span>Climb</span></h1>
+          </div>
+          <div class="section-header-desc">
+            <p class="history-section-desc">
+              Cras scelerisque id quam sed dignissim Pellentesque urna nunc,
+              gravida quis hendrerit ac, tristique ut quam. Vivamus suscipit
+              dignissim tortor nec congue.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="navigation-tab">
+        <div class="navigation-tab-items container">
+          <div data-tab="tab-1" class="navigation-tab-item tab--active">
+            Mountain 1
+          </div>
+          <div data-tab="tab-2" class="navigation-tab-item">Mountain 2</div>
+        </div>
+      </div>
+      <div id="tab-content-wrapper" class="tab-1-bg">
+        <div class="container">
+          <div class="tab-schedule-content tab-1">
+            <h1>Schedule</h1>
+            <div class="tab-content-schedule">
+              <p class="schedule-title">25 Nov 2016</p>
+              <p class="schedule-desc">Vestibulum viverra</p>
+            </div>
+            <div class="tab-content-schedule">
+              <p class="schedule-title">25 Nov 2016</p>
+              <p class="schedule-desc">Vestibulum viverra</p>
+            </div>
+            <div class="tab-content-schedule">
+              <p class="schedule-title">25 Nov 2016</p>
+              <p class="schedule-desc">Vestibulum viverra</p>
+            </div>
+            <div class="tab-content-schedule">
+              <p class="schedule-title">25 Nov 2016</p>
+              <p class="schedule-desc">Vestibulum viverra</p>
+            </div>
+          </div>
+          <div class="tab-schedule-content tab-2">
+            <h1>Schedule Changed</h1>
+            <div class="tab-content-schedule">
+              <p class="schedule-title">25 Nov 2021</p>
+              <p class="schedule-desc">Vestibulum viverra</p>
+            </div>
+            <div class="tab-content-schedule">
+              <p class="schedule-title">25 Nov 2021</p>
+              <p class="schedule-desc">Vestibulum viverra</p>
+            </div>
+            <div class="tab-content-schedule">
+              <p class="schedule-title">25 Nov 2021</p>
+              <p class="schedule-desc">Vestibulum viverra</p>
+            </div>
+            <div class="tab-content-schedule">
+              <p class="schedule-title">25 Nov 2021</p>
+              <p class="schedule-desc">Vestibulum viverra</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="footer-items">
+          <div class="logo">
+            <img src="./assets/footer-logo.png" alt="logo" />
+          </div>
+          <div class="footer-copyright">
+            COPYRIGHT <span id="date"></span>. ALL RIGHTS RESERVED.
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
