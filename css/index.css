@@ -121,7 +121,7 @@ header .header-banner img {
 .history-section {
   background: url(../assets/mountain.jpg) no-repeat;
   background-size: cover;
-  height: 130vh;
+  height: 150vh;
   position: relative;
 }
 
@@ -129,7 +129,6 @@ header .header-banner img {
   position: absolute;
   bottom: 0;
   width: 100%;
-  padding-top: 2.5rem;
 }
 
 .climb-section {
